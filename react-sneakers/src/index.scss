@@ -7,6 +7,9 @@ body {
   background-color: #e7f6ff;
 }
 
+* {
+  font-family: "Inter",system-ui;
+}
 
 .wrapper{
   /* Rectangle 17 */
@@ -79,4 +82,17 @@ border-bottom: 1px solid #eaeaea;
 .sneakers{
   display: flex;
   flex-direction: row;
+}
+.search-block{
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 0px 15px;
+
+
+  input{
+    border:0;
+    padding: 13px;
+    font-size: 16px;
+    width: 200px;
+  }
 }

@@ -23,8 +23,15 @@ function App() {
 
     
         <div className="content p-40">
-          <h1 className="mb-40">Все кросовки</h1>  
-          
+        
+          <div className="d-flex align-center justify-between mb-40">
+              <h1 >Все кросовки</h1>  
+              <div className="search-block d-flex">
+                <img src="/img/sneakers/search.svg" alt="dddd" /> 
+                <input type="text" placeholder="Search..." /> </div>
+                  
+         
+          </div>
           <div className="sneakers">
                 <div className="card">
                   <img
