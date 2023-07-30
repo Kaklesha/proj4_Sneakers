@@ -34,6 +34,11 @@ function App() {
           </div>
           <div className="sneakers">
                 <div className="card">
+
+                  <div className="favorite">
+                <img className='islike' src="/img/sneakers/unlike.svg" alt="unlike" />
+                  </div>
+
                   <img
                     width={133}
                     height={112}
